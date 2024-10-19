@@ -1,4 +1,4 @@
-package com.plcoding.cryptotracker.crypto.presentation.coin_screen.model
+package com.plcoding.cryptotracker.crypto.presentation.coin_list.model
 
 import androidx.annotation.DrawableRes
 import com.plcoding.cryptotracker.crypto.data.Coin
