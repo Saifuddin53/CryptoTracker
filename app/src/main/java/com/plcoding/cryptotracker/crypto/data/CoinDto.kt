@@ -1,6 +1,9 @@
 package com.plcoding.cryptotracker.crypto.data
 
-data class Coin(
+import kotlinx.serialization.Serializable
+
+@Serializable
+data class CoinDto(
     val id: String,
     val name: String,
     val symbol: String,

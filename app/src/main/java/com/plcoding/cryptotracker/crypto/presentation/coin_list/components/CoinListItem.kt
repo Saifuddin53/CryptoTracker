@@ -24,7 +24,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.tooling.preview.PreviewLightDark
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.plcoding.cryptotracker.crypto.data.Coin
+import com.plcoding.cryptotracker.crypto.domain.Coin
 import com.plcoding.cryptotracker.crypto.presentation.coin_list.model.CoinUI
 import com.plcoding.cryptotracker.crypto.presentation.coin_list.model.toCoinUI
 import com.plcoding.cryptotracker.ui.theme.CryptoTrackerTheme
