@@ -52,7 +52,7 @@ fun CoinListItem(
             imageVector = ImageVector.vectorResource(id = coinUI.iconRes),
             contentDescription = coinUI.name,
             tint = MaterialTheme.colorScheme.primary,
-            modifier = Modifier.size(85.dp)
+            modifier = Modifier.size(80.dp)
         )
         Column(
             modifier = Modifier.weight(1f)
@@ -60,13 +60,13 @@ fun CoinListItem(
             Text(
                 text = coinUI.symbol,
                 fontWeight = FontWeight.Bold,
-                fontSize = 16.sp,
+                fontSize = 14.sp,
                 color = contentColor
             )
             Text(
                 text = coinUI.name,
                 fontWeight = FontWeight.Light,
-                fontSize = 14.sp,
+                fontSize = 12.sp,
                 color = contentColor
             )
         }
@@ -76,7 +76,7 @@ fun CoinListItem(
             Text(
                 text = "$ ${coinUI.marketCapUsd.format}",
                 fontWeight = FontWeight.Bold,
-                fontSize = 16.sp,
+                fontSize = 11.sp,
                 color = contentColor
             )
             Spacer(modifier = Modifier.height(8.dp))
